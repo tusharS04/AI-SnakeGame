@@ -3,13 +3,21 @@ Reinforcement learning (RL) is an area of machine learning concerned with how in
 In this game our agent snake considers food as reward and the snake learns through reinforcement learning and understands the environment.
 
 ## How to run
-Run these 2 queries in anaconda prompt/python cmd
 
-1. To activate and set the environment
-	-conda activate pygame_env (Make sure pygame lib is installed)
+### To run the game Follow the instructions 
+Run all the queries in anaconda prompt/python cmd
 
-2. To run the game
-	-python agent.py
+> Make sure you have conda, pygame and torchvision modules installed (pip install module_name)
+
+> You must have created an environment 
+> If not then you can create  one by the following command
+	``` conda create -n pygame_env python=3.7 ```
+
+> To activate and set the environment
+	``` conda activate pygame_env ```
+
+> To run the game
+	``` python agent.py ```
 
 
 ## Working
